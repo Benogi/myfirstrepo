@@ -137,18 +137,6 @@
     (get @ratom :oxo))
   )
 
-
-
-;not working
-;(defn gen-butt [x y]
-;  (map-map (fn [] (
-;    [:button {
-;      :style {:width "77px" :height "77px"}
-;      :value nil
-;      :on-click (fn [] ())}]))
-;    (oxo x y))
-;  )
-
 (defn page [ratom]
   [:div {:style {:display "flex" :justify-content "center"}}
 ;  "Your table:"
